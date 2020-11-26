@@ -1,9 +1,3 @@
-<style>
-table {
-    width:100%;
-}
-</style>
-
 # Projeto de Interfaces para Dispositivos Móveis, 2020.2.
 
 * Playlist 
