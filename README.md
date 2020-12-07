@@ -7,3 +7,4 @@ Aula | Link
 ------------ | -------------
 Aula 01 - Introdução ao Expo | https://youtu.be/UCu_eqCnn1Q
 Aula 01 (extra)- Instalando o Expo no Windows 10 | https://youtu.be/3o9Xd-uWYKg
+Aula 02 - Componentes como funções, classes, imagem e props. | https://youtu.be/ZueB3yfevhk

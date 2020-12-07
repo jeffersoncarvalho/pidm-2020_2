@@ -6,10 +6,13 @@ export default class SomaSubtrai extends Component {
     constructor(props) {
         super(props)
         this.state = {valor:0}
+
+        this.subtrai = this.subtrai.bind(this)
     }
 
     subtrai(){
-        alert('APERTEI SUBTRAI')
+        //alert('APERTEI SUBTRAI')
+        this.setState({valor:this.state.valor-1})
     }
  
     render(){
@@ -20,11 +23,16 @@ export default class SomaSubtrai extends Component {
                 <Button title='SOMA' onPress={
                     ()=>
                         {
-                            alert('APERTEI SOMA')
+                            //alert('APERTEI SOMA')
+                            this.setState({valor:this.state.valor+1})
                         }
                     }/>
                 <br /> 
                 <Button title='SUBTRAI' onPress={this.subtrai}/>
+                <br /> 
+                <Button title='SOMA 10' onPress={()=>this.setState({valor:this.state.valor + 10})}/>
+                <br /> 
+                <Button title='SUBTRAI 10' onPress={()=>this.setState({valor:this.state.valor - 10})}/>
             </View>
         )
     }
