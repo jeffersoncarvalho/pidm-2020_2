@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import { Image } from 'react-native'
 
-export default class Imagem extends Component{ 
+export default class Corpo extends Component{ 
     render(){
         let img =  {uri :'https://www.quixada.ufc.br/wp-content/uploads/2015/11/Jo%C3%A3o-240x320.png'} //objeto JSON
         return(
