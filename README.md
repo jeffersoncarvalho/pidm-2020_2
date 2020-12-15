@@ -10,3 +10,4 @@ Aula 01 (extra) - Instalando o Expo no Windows 10. | https://youtu.be/3o9Xd-uWYK
 Aula 02 - Componentes como funções, classes, imagem e props. | https://youtu.be/ZueB3yfevhk
 Aula 03 - State, resolução da atividade 01. | https://youtu.be/ua4W6y5G_zs
 Aula 04 - Estilos, Flex, Flexbox... | https://youtu.be/2OdkyO4zPY4
+Aula 05 - Resolução da atividade 02. | https://youtu.be/LqaGyxWdk2s

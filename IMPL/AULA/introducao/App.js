@@ -14,6 +14,7 @@ import Estilo01 from './src/estilos/Estilo01';
 import Estilo02 from './src/estilos/Estilo02';
 import Estilo03 from './src/estilos/Estilo03';
 import Estilo04 from './src/estilos/Estilo04';
+import Atividade02 from './src/atividade2/Atividade02';
 
 
 /*export default function App() {
@@ -58,7 +59,7 @@ import Estilo04 from './src/estilos/Estilo04';
 
 export default function App() {
   return (
-    <Estilo04/>
+    <Atividade02/>
   );
 }
 
