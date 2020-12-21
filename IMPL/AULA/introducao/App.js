@@ -15,8 +15,35 @@ import Estilo02 from './src/estilos/Estilo02';
 import Estilo03 from './src/estilos/Estilo03';
 import Estilo04 from './src/estilos/Estilo04';
 import Atividade02 from './src/atividade2/Atividade02';
+import CalculadoraApp from './src/imc/CalculadoraApp'
+import TradutorPizza from './src/pizza/TradutorPizza'
+import BotaoInput from './src/botaoinput/BotaoInput';
 
+export default function App() {
+  return (
+    <BotaoInput/>
+  );
+}
 
+/*
+export default function App() {
+  return (
+    <TradutorPizza/>
+  );
+}*/
+
+/*export default function App() {
+  return (
+    <CalculadoraApp/>
+  );
+}*/
+
+/*export default function App() {
+  return (
+    <Atividade02/>
+  );
+}
+*/
 /*export default function App() {
   return (
     <View style={styles.container}>
@@ -57,11 +84,7 @@ import Atividade02 from './src/atividade2/Atividade02';
   );
 }*/
 
-export default function App() {
-  return (
-    <Atividade02/>
-  );
-}
+
 
 const styles = StyleSheet.create({
   container: {
