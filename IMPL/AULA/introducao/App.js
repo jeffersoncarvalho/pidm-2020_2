@@ -18,12 +18,40 @@ import Atividade02 from './src/atividade2/Atividade02';
 import CalculadoraApp from './src/imc/CalculadoraApp'
 import TradutorPizza from './src/pizza/TradutorPizza'
 import BotaoInput from './src/botaoinput/BotaoInput';
+import Tocavel from './src/tocaveis/Tocavel';
+import MeuScroll from './src/scroll/MeuScroll';
+import MinhaFlatList from './src/listas/MinhaFlatList';
+import MeuFetch from './src/fetch/MeuFetch';
 
-export default function App() {
+export default function App(){
+  return(
+    <MeuFetch/>
+  )
+}
+
+/*export default function App(){
+  return(
+    <MinhaFlatList/>
+  )
+}*/
+
+/*export default function App(){
+  return(
+    <MeuScroll/>
+  )
+}*/
+
+/*export default function App() {
+  return (
+    <Tocavel/>
+  );
+}*/
+
+/*export default function App() {
   return (
     <BotaoInput/>
   );
-}
+}*/
 
 /*
 export default function App() {
