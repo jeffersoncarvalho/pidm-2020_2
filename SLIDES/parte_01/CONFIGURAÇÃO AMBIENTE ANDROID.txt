@@ -1,0 +1,32 @@
+*CONFIGURANDO O AMBIENTE ANDROID
+ 
+ 1-) Instalar o Node
+ 2-) Instalar a JDK
+	2.1-)Criar variável de ambiente JAVA_HOME
+	2.2-)Apontar para a basta bin da JAVA_HOME em Path
+ 3-) Instalar o Android Studio
+    3.1-) Instalar a SDK (SDK Manager)
+		3.1.1-) * Escolher Android 10 (Q)
+				* Expandir detalhes
+				* Marcar Intel x86 Atom_64 System Image OU
+				  Google APIs Intel x86 Atom System Image
+	3.2-) Criar a variável de ambiente ANDROID_HOME
+ 4-) Criar o emulador do Android (AVD Manager)
+	4.1-) Escolher a API 29 (ou maior)
+	
+*CRIANDO E EXECUTANDO UMA APLICAÇÃO NO AMBIENTE ANDROID
+
+   1-) criar: npx react-native init <NomeDoProjeto>
+       executar: 
+				i) npx react-native start (Executa o Servidor Metro)
+				ii)npx react-native run-android (Executa a aplicação no emulador)
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
