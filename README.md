@@ -1,6 +1,6 @@
 # Projeto de Interfaces para Dispositivos Móveis, 2020.2.
 
-* Playlist 
+* Playlist Youtube
   * https://www.youtube.com/playlist?list=PL2R4y_yfi1pfjWTnEjADqvI1RYszufMA2
 
 Aula | Link
