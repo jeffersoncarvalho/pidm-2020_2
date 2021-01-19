@@ -1,73 +1,84 @@
 import NavegacaoApp from './NavegacaoApp';
 import About from './About';
-import Modal from './Modal';
+import Modal from './Modal'
 
-import React from "react"
-import { NavigationContainer } from "@react-navigation/native"
-import { createStackNavigator } from "@react-navigation/stack"
+//Versão 5.x (com MODAL - preciso de DUAS pilhas)
+import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
 
-/*const Stack = createStackNavigator();
+const PilhaPrincipal = createStackNavigator()
+const PilhaRaiz = createStackNavigator()
 
-function routes() {
+function PilhaPrincipalTelas() {
+    return (
+        <PilhaPrincipal.Navigator
+            initialRouteName='Home'
+        >
+            <PilhaPrincipal.Screen name='Home' component={NavegacaoApp} />
+            <PilhaPrincipal.Screen name='About' component={About} />
+        </PilhaPrincipal.Navigator>
+    )
+}
+
+function PilhaRaizTelas() {
     return (
         <NavigationContainer>
-            <Stack.Navigator
-                initialRouteName="Home"
-                screenOptions={{
-                    headerStyle: {
-                        backgroundColor: '#f4511e',
-                    },
-                    headerTintColor: '#fff',
-                    headerTitleStyle: {
-                        fontWeight: 'bold',
-                    },
-                }}
-            >
-                <Stack.Screen
-                    name='Home'
-                    component={NavegacaoApp}
-                    options={{ title: 'My Home' }}
+            <PilhaRaiz.Navigator>
+                <PilhaRaiz.Screen
+                    name='Principal'
+                    component={PilhaPrincipalTelas}
+                    options={{ headerShown: false }}
                 />
-                <Stack.Screen
-                    name='About'
-                    component={About}
-                    options={About.navigationOptions}
-                />
-            </Stack.Navigator>
+                <PilhaRaiz.Screen name='MeuModal' component={Modal} options={{ headerShown: false }}/>
+            </PilhaRaiz.Navigator>
         </NavigationContainer>
     )
 }
 
-export default routes
-*/
+export default PilhaRaizTelas
 
-const MainStack = createStackNavigator();
-const RootStack = createStackNavigator();
+//Versão 5.x (Sem MODAL)
+/*import React from 'react'
+import { NavigationContainer } from '@react-navigation/native'
+import { createStackNavigator } from '@react-navigation/stack'
 
+const Pilha = createStackNavigator() //navegação do tipo Pilha ou Stack
 
-function MainStackScreen() {
-    return (
-        <MainStack.Navigator>
-            <MainStack.Screen name="Home" component={NavegacaoApp} />
-            <MainStack.Screen name="About" component={About} options={About.navigationOptions} />
-        </MainStack.Navigator>
-    );
-}
-
-function RootStackScreen() {
-    return (
+function Routes(){
+    return(
         <NavigationContainer>
-            <RootStack.Navigator mode="modal">
-                <RootStack.Screen
-                    name="Main"
-                    component={MainStackScreen}
-                    options={{ headerShown: false }}
+            <Pilha.Navigator
+                initialRouteName='Home'
+            >
+                <Pilha.Screen
+                    name='Home'
+                    component={NavegacaoApp}
+                    options={{title:'Tela Inicial'}}
                 />
-                <RootStack.Screen name="MyModal" component={Modal} options={{ headerShown: false }}/>
-            </RootStack.Navigator>
+                <Pilha.Screen
+                    name='About'
+                    component={About}
+                    options={About.estiloCabecalho}
+                />
+            </Pilha.Navigator>
         </NavigationContainer>
-    );
+    )
 }
 
+export default Routes*/
 
-export default RootStackScreen
+//Versão 4.x (ANTIGO)
+/*import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
+
+const Routes = createAppContainer(
+    createStackNavigator(
+        {
+            Home: NavegacaoApp,
+            About: About,
+        },
+        { initialRouteName:'Home'}
+    )
+);
+export default Routes;*/

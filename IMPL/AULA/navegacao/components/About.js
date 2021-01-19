@@ -1,19 +1,36 @@
 import React, { Component } from 'react';
 import { View, Text, Button } from 'react-native';
-import Logo from './Logo';
+import Logo from './Logo'
 
 export default class About extends Component {
 
-    //static navigationOptions = {headerTitle: <Text style={{fontWeight:"bold", color:"black", fontSize:20}}>About in JSX</Text>}
-    static navigationOptions = {
-        headerTitle: <Logo titulo="Sobre de Novo" />,
-        headerRight: () => <Button onPress={() => alert('Um botão!')}
-            title="Info"
-            color="#000"
-        />,
+    static estiloCabecalho = {
+        headerTitle: <Logo titulo='Sobre...(VComponente)' />,
+        headerRight: () => <Button
+            onPress={
+                () => alert('Sou um botão!')
+            }
+            title='Me Aperte'
+            color='#c0c0c0'
+        />
     }
 
+    /*static estiloCabecalho = { 
+        headerTitle: <Text style={{fontWeight:"bold", color:"red", fontSize:20}}>
+                        Sobre... (VJSX)
+                     </Text>
+    }*/
 
+    /*static estiloCabecalho = {
+        title: 'Sobre...(V2)',
+        headerStyle: {
+            backgroundColor: '#f4A03e',
+        },
+        headerTintColor: '#fff',
+        headerTitleStyle: {
+            fontWeight: 'bold',
+        },
+    }*/
 
     render() {
         return (
@@ -29,8 +46,8 @@ export default class About extends Component {
                         fontWeight: "bold",
                         fontSize: 18
                     }}>
-
-                    Sobre - {this.props.route.params.nome}
+                    Sobre - Nome: {this.props.route.params.nome}, Idade:  {this.props.route.params.idade}
+                    {/*this.props.navigation.getParam('noe','Wladimir')*/}
                 </Text>
 
                 <Button title="Ir pro About... de novo?"
@@ -45,10 +62,12 @@ export default class About extends Component {
                 <Button title="Back"
                     onPress={() => this.props.navigation.goBack()}
                 />
+
                 <Button
-                    onPress={() => this.props.navigation.navigate('MyModal')}
-                    title="Open Modal"
+                    onPress={() => this.props.navigation.navigate('MeuModal')}
+                    title="Abrir Modal"
                 />
+
             </View>
         )
     }

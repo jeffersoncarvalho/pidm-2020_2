@@ -8,7 +8,7 @@ export default class Modal extends Component {
                 <Text style={{ fontSize: 30 }}>Isto é um Modal!</Text>
                 <Button
                     onPress={() => this.props.navigation.goBack()}
-                    title="Dismiss"
+                    title="Sair do Modal"
                 />
             </View>
         );
