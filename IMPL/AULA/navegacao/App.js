@@ -8,14 +8,16 @@
 
 import React from 'react';
 import {View,Text, StyleSheet} from 'react-native';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import Routes from './components/Routes'
 
 const App = ()=>{
   return(
-    <View style={estilos.container}>
-      <Text style={estilos.texto}>
-        Jefferson de Carvalho Silva
-      </Text>
-    </View>
+     
+      <SafeAreaProvider>
+        <Routes/>
+      </SafeAreaProvider>
+     
   )
 }
 
