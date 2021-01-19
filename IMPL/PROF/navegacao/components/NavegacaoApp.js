@@ -1,13 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, Button } from 'react-native';
 
-export default class NavegacaoApp extends Component {
-    
-    constructor(props){
-        super(props)
-        
-    }
-
+export default class About extends Component {
     render() {
         return (
 

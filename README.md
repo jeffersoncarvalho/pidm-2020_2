@@ -14,3 +14,4 @@ Aula 05 - Resolução da atividade 02. | https://youtu.be/LqaGyxWdk2s
 Aula 06 - TextInput | https://youtu.be/LHI9XSkEBsk
 Aula 07 - Tocáveis, Scroll, FlatList e Fetch | https://youtu.be/xBwYWS6OYuY
 Aula 08 - Introdução à Navegação (instalação)  | https://youtu.be/GQhLPOpQGt0
+Aula 09 - Introdução à Navegação (exemplo 01)  | https://youtu.be/D_sIS8t04xM
