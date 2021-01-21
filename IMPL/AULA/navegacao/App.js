@@ -9,7 +9,7 @@
 import React from 'react';
 import {View,Text, StyleSheet} from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import Routes from './components/Routes'
+import Routes from './components/stack/Routes'
 
 const App = ()=>{
   return(
