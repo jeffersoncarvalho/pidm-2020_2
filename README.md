@@ -16,3 +16,4 @@ Aula 07 - Tocáveis, Scroll, FlatList e Fetch | https://youtu.be/xBwYWS6OYuY
 Aula 08 - Introdução à Navegação (instalação) | https://youtu.be/GQhLPOpQGt0
 Aula 09 - Introdução à Navegação (aula Stack 01) | https://youtu.be/D_sIS8t04xM
 Aula 10 - Introdução à Navegação (aula Stack final) | https://youtu.be/6o3J7NfhS2U
+Aula 11 - Nanegação com Tabs  | https://youtu.be/AkWNh0BC3FM
