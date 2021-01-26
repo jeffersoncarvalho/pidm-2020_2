@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native'
+import AsyncStorage from '@react-native-community/async-storage'
 
 export default class Login extends Component {
     constructor(props){
@@ -7,8 +8,15 @@ export default class Login extends Component {
         this.state = {login:'',senha:''}
     }
 
-    acaoBotao = ()=>{
-        alert(this.state.login)
+    acaoBotao = async () => {
+
+        try {
+            await AsyncStorage.setItem('TOKEN', 'somecrazyvalue')
+            alert('Data successfully saved')
+        } catch (e) {
+            alert('Failed to save the data to the storage')
+        }
+
     }
 
     render(){

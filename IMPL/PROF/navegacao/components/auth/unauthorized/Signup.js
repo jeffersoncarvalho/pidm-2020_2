@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native'
+import AsyncStorage from '@react-native-community/async-storage'
+
 
 export default class Signup extends Component {
     constructor(props) {
@@ -7,15 +9,22 @@ export default class Signup extends Component {
         this.state = { login: '', senha: '' }
     }
 
-    acaoBotao = () => {
-        alert(this.state.login)
+    acaoBotao = async () => {
+
+        try {
+            await AsyncStorage.setItem(STORAGE_KEY, 'true')
+            alert('Data successfully saved')
+        } catch (e) {
+            alert('Failed to save the data to the storage')
+        }
+
     }
 
     render() {
         return (
             <View style={styles.container}>
                 <Text style={styles.headerText}>Efetue seu Cadastro</Text>
-                 
+
                 <Text style={styles.labelText}>Login</Text>
                 <TextInput
                     style={styles.textInput}
@@ -35,7 +44,7 @@ export default class Signup extends Component {
     }
 }
 
- 
+
 
 const styles = StyleSheet.create({
     container: {
