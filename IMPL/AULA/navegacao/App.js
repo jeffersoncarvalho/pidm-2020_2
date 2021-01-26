@@ -10,7 +10,10 @@ import React from 'react';
 import {View,Text, StyleSheet} from 'react-native';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 //import Routes from './components/stack/Routes'
-import Routes from './components/tab/Routes'
+//import Routes from './components/tab/Routes'
+//import Routes from './components/drawer/Routes'
+//import LoginScreen from './components/auth/unauthorized/LoginScreen'
+import Routes from './components/auth/Routes'
 
 const App = ()=>{
   return(
