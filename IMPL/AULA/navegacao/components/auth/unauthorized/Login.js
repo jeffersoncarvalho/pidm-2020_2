@@ -2,21 +2,27 @@ import React, { Component } from 'react'
 import { View, Text, TextInput, Button, StyleSheet } from 'react-native'
 import AsyncStorage from '@react-native-community/async-storage'
 
+
 export default class Login extends Component {
     constructor(props){
         super(props)
         this.state = {login:'',senha:''}
     }
 
-    acaoBotao = async () => {
-
-        try {
-            await AsyncStorage.setItem('TOKEN', 'somecrazyvalue')
-            alert('Data successfully saved')
-        } catch (e) {
-            alert('Failed to save the data to the storage')
+    acaoBotao = async ()=>{
+        try{
+            await AsyncStorage.setItem('TOKEN','umvalorbemdoido')
+            alert('Token salvo com sucesso')
+        }catch(e){
+            alert('Falha ao salvar o token')
         }
+        //redirect pra routes
+        //this.props.navigation.navigate('Home')
+        //this.props.navigation.dispatch({type: 'Navigation/BACK'});
+    }
 
+    signup = ()=>{
+        this.props.navigation.navigate('Signup')
     }
 
     render(){
@@ -35,6 +41,9 @@ export default class Login extends Component {
                     placeholder='password'/>
                 <View style={{flex:1,margin:25}}>
                     <Button color="#c0c0c0" title='Login' onPress={this.acaoBotao}/>
+                </View>
+                <View style={{flex:1,margin:25}}>
+                    <Button color="#c0c0c0" title='Signup' onPress={this.signup}/>
                 </View>
             </View>
 

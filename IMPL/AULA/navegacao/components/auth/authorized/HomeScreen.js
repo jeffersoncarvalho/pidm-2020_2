@@ -1,28 +1,20 @@
-import React, {Component} from 'react'
-import {View,Text, Button} from 'react-native'
+import React, { Component } from 'react'
+import { View, Text} from 'react-native'
 
-export default class HomeScreen extends Component{
-    render(){
+export default class Home extends Component {
+    render() {
         return (
             <View
                 style={{
-                    flex:1,
-                    justifyContent:'center',
-                    alignItems:'center'
+                    flex: 1,
+                    flexDirection: 'column',
+                    justifyContent: 'center',
+                    alignItems: 'center'
                 }}
             >
-                <Text
-                    style={{fontSize:24}}
-                >
-                    Bem-Vindo à Home Screen!
+                <Text>
+                    Página Home, com Auth.
                 </Text>
-
-                <Button
-                    onPress={
-                        () => this.props.navigation.navigate('Settings')
-                    }
-                    title="Ir para Settings"
-                />
             </View>
         )
     }
