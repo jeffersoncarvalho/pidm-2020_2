@@ -19,3 +19,5 @@ Aula 10 - Introdução à Navegação (aula Stack final) | https://youtu.be/6o3J
 Aula 11 - Navegação com Tabs | https://youtu.be/AkWNh0BC3FM
 Aula 12 - Navegação com Drawer e Autenticação V0 | https://youtu.be/fpSwdP6KA_4
 Aula 13 - Autenticação V1 com Async | https://youtu.be/12g6c2AxrAQ
+Aula 14 - Projeto Albums, parte 1 | https://youtu.be/2GtRfGW7UXQ
+Aula 15 - Projeto Albums, parte 2 |
