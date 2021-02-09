@@ -4,7 +4,7 @@ import { View, StyleSheet } from 'react-native'
 export default class CardItem extends Component {
     render() {
         return (
-            <View style={styles.containerStyle}>
+            <View style={[styles.containerStyle,this.props.style]}>
                 {this.props.children}
             </View>
         );

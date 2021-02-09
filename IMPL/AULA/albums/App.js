@@ -6,7 +6,7 @@ import AlbumList from './src/components/AlbumList'
 
 export default () => {
   return (
-    <View>
+    <View style={{flex:1}}>
       <Header title='Projeto Álbuns' />
       <AlbumList />
     </View>

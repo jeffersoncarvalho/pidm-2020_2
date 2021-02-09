@@ -11,7 +11,6 @@ export default class AlbumList extends Component {
     }
 
     componentDidMount(){
-
         fetch('https://raw.githubusercontent.com/san650/ten/master/apps/music/api/albums.json')
         .then(
             (response) => {
@@ -23,8 +22,6 @@ export default class AlbumList extends Component {
                 this.setState({albums:responseJson.albums})
             }
         )
-
-
     }
 
     /*renderAlbuns(){
