@@ -1,14 +1,15 @@
 import React from 'react'
 import { View, Text } from 'react-native'
+import { SafeAreaProvider } from 'react-native-safe-area-context';
 
-import Header from './src/components/Header'
-import AlbumList from './src/components/AlbumList'
+
+import HomeScreen from './src/components/screens/HomeScreen'
+import Routes from './src/components/screens/Routes'
 
 export default () => {
   return (
-    <View style={{flex:1}}>
-      <Header title='Projeto Álbuns' />
-      <AlbumList />
-    </View>
+    <SafeAreaProvider>
+      <Routes />
+    </SafeAreaProvider>
   )
 }

@@ -31,6 +31,17 @@ export default class AlbumDetail extends Component {
                 </CardItem>
                 <CardItem>
                     <MyButton 
+                        title='Ver Músicas'
+                        onPress={
+                            ()=>{
+                                //alert('Você clicou em ' + this.props.album.links.tracks)
+                                return this.props.navigation.navigate('ModalScreen')
+                            }
+                        }
+                        />
+                </CardItem>
+                <CardItem>
+                    <MyButton 
                         title='Me Compre!'
                         onPress={
                             ()=>{
