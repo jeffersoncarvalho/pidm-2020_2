@@ -53,6 +53,6 @@ export default class AlbumList extends Component {
                     }
                 }
             />
-        );
+        )
     }
 }

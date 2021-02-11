@@ -35,7 +35,11 @@ export default class AlbumDetail extends Component {
                         onPress={
                             ()=>{
                                 //alert('Você clicou em ' + this.props.album.links.tracks)
-                                return this.props.navigation.navigate('ModalScreen')
+                                return this.props.navigation.navigate(
+                                    'ModalScreen',
+                                    {tracks:this.props.album.links.tracks,
+                                     name: this.props.album.name
+                                    })
                             }
                         }
                         />
