@@ -35,8 +35,7 @@ export default class ModalScreen extends Component {
     renderMusic(){
         if(this.state.loading===true){
             return (
-                <View style={{flex:1, alignItems:'center'}}>
-                    
+                <View style={{flex:1, alignItems:'center'}}>     
                     <ActivityIndicator size="large" color="#0000ff"/>
                     <Text>loading...</Text>
                 </View>
