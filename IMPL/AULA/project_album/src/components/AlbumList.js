@@ -32,7 +32,7 @@ export default class AlbumList extends Component {
         return (
             <FlatList 
                 data={this.state.albums}
-                renderItem = {({item})=><AlbumDetail album={item}/> } 
+                renderItem = {({item})=><AlbumDetail album={item} {...this.props}/> } 
                 keyExtractor = {(index,item)=>index+item}
             />
         )
