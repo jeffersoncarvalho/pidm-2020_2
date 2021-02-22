@@ -21,4 +21,4 @@ Aula 12 - Navegação com Drawer e Autenticação V0 | https://youtu.be/fpSwdP6K
 Aula 13 - Autenticação V1 com Async | https://youtu.be/12g6c2AxrAQ
 Aula 14 - Projeto Albums, parte 1 | https://youtu.be/2GtRfGW7UXQ
 Aula 15 - Projeto Albums, parte 2 | https://youtu.be/KhiCKdUNX64
-Aula 16 - Resolução Atividade 05, parte 1 | https://youtu.be/-g5lopOH3k0
+Aula 16 - Resolução Atividade 05, parte 1 | https://youtu.be/zpqbFrhYwE0

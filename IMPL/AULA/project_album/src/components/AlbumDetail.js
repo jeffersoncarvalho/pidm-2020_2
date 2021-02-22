@@ -33,6 +33,7 @@ export default class AlbumDetail extends Component {
                         onPress={
                             () =>this.props.navigation.navigate('ModalScreen',
                                                                 {albumName:this.props.album.name,
+                                                                 albumArtist:this.props.album.artist,
                                                                  albumTracks:this.props.album.links.tracks})
                         }
                     >
