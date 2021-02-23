@@ -22,3 +22,5 @@ Aula 13 - Autenticação V1 com Async | https://youtu.be/12g6c2AxrAQ
 Aula 14 - Projeto Albums, parte 1 | https://youtu.be/2GtRfGW7UXQ
 Aula 15 - Projeto Albums, parte 2 | https://youtu.be/KhiCKdUNX64
 Aula 16 - Resolução Atividade 05, parte 1 | https://youtu.be/zpqbFrhYwE0
+Aula 17 - Resolução Atividade 05, parte final | https://youtu.be/zneFv-t5EfQ
+Aula 18 - Introdução ao Firebase-Firestore |https://youtu.be/Mtm7LTAod10

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "805150179694",
+    "project_id": "pidm-prof",
+    "storage_bucket": "pidm-prof.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805150179694:android:430ebb92044c34257e817f",
+        "android_client_info": {
+          "package_name": "com.firebase_class"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805150179694-2go6tuddp0hvnaup60g9vod3fq4rerol.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBLJlZrIjRB828HpIfvlpBnYj4skk9EGTE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805150179694-2go6tuddp0hvnaup60g9vod3fq4rerol.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
