@@ -16,15 +16,14 @@ export default class MyButton extends Component {
 
 const styles = StyleSheet.create({
     buttonStyle: {
-        flex: 1,
-        alignSelf: 'stretch',
+        
+        width:100,
         backgroundColor: '#fff',
-        borderRadius: 5,
+        borderRadius: 1,
         borderWidth: 1,
         borderColor: '#c0c0c0',
-        marginLeft: 5,
-        marginRight: 5,
-        elevation: 3
+        margin: 5,
+       
     },
     textStyle: {
         alignSelf: 'center',

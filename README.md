@@ -25,3 +25,4 @@ Aula 16 - Resolução Atividade 05, parte 1 | https://youtu.be/zpqbFrhYwE0
 Aula 17 - Resolução Atividade 05, parte final | https://youtu.be/zneFv-t5EfQ
 Aula 18 - Introdução ao Firebase-Firestore | https://youtu.be/Mtm7LTAod10
 Aula 19 - CRUD básico Firebase-Firestore | https://youtu.be/SY2Ew5tiEKs
+Aula 20 - CRUD básico Firebase-Firestore + Navegação | ttps://youtu.be/78hp_PuY-p8
