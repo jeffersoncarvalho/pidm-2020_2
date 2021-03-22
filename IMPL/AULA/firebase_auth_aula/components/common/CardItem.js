@@ -23,4 +23,4 @@ const styles = StyleSheet.create({
         flexDirection: 'row',
     }
 })
-export default CardItem;
+export {CardItem}

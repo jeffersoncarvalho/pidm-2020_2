@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Text, StyleSheet, TouchableOpacity } from 'react-native';
 
-export default class MyButton extends Component {
+class MyButton extends Component {
     render() {
         return (
             <TouchableOpacity
@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
     textStyle: {
         alignSelf: 'center',
         color: 'black',
-        fontSize: 14,
+        fontSize: 18,
         fontWeight:'bold',
         fontWeight: '600',
         paddingTop: 10,
@@ -36,3 +36,5 @@ const styles = StyleSheet.create({
 
     }
 });
+
+export {MyButton}
